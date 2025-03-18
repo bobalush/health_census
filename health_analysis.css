@@ -1,0 +1,20 @@
+/* CSS reset or universal selecor rule, and it ensures
+consistency in styleing across different browsers.
+margin: 0 - Removes the default outer spacing (margin) that browsers add to elements. 
+Prevent unwanted white spaces around elements. 
+padding: 0  - remove default inner spacing
+box-sizing: boder-box: normally width & height do not include padding and border, but with border-box, they do. 
+Prevent layout issues caused by extra padding or borders.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    
+}
